@@ -1,6 +1,9 @@
 /* Text colors */
 :root {
-    --main : #28a745;
+    --main: #28a745;
+    --white: #fff;
+    --black: #333;
+    --blue: #0284d0;
 }
 
 .text-primary {
@@ -10,3 +13,36 @@
 .text-secondary {
     color: #0284d0;
 }
+
+/* Button */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: var(--white);
+    background-color: var(--main);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background: var(--main);
+    color: var(--white);
+}
+.btn-secondary {
+    background: var(--blue);
+    color: var(--white);
+}
+.btn-dark {
+    background: var(--black);
+    color: var(--white);
+}
+.btn-light {
+    background: var(--white);
+    color: var(--black);
+}
+
