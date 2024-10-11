@@ -1,0 +1,12 @@
+/* Text colors */
+:root {
+    --main : #28a745;
+}
+
+.text-primary {
+    color: var(--main);
+}
+
+.text-secondary {
+    color: #0284d0;
+}
