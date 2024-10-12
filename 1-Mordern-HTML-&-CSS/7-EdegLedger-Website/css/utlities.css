@@ -42,7 +42,7 @@
     color: var(--white);
 }
 .btn-light, .bg-light {
-    background: var(--white);
+    background: #f4f4f4;
     color: var(--black);
 }
 .btn-outline {
