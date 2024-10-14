@@ -4,7 +4,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -54,6 +53,11 @@ img {
     top: 0px;
     padding: 0 30px;
     z-index: 20;
+    transition: 0.5s;
+}
+
+.navbar.top {
+    background: transparent;
 }
 
 .navbar a {
